@@ -1,11 +1,13 @@
 #include "ch32v003fun.h"
 #include "ch32v003_GPIO_branchless.h"
+#include "gpio_neopixel.h"
 #include "switch.h"
 #include <stdio.h>
 
 #define I2C_SLAVE_ADDRESS 0x74
 #define LOOP_MS 10
-#define LED_PIN GPIOv_from_PORT_PIN(GPIO_port_D, 1)
+// #define LED_PIN GPIOv_from_PORT_PIN(GPIO_port_C, 3)
+#define LED_PIN GPIOv_from_PORT_PIN(GPIO_port_D, 4)
 #define SELECT_U1_PIN GPIOv_from_PORT_PIN(GPIO_port_A, 1)
 #define SELECT_U2_PIN GPIOv_from_PORT_PIN(GPIO_port_A, 2)
 #define SELECT_U3_PIN GPIOv_from_PORT_PIN(GPIO_port_D, 0)
@@ -140,6 +142,8 @@ void init_gpio()
     GPIO_pinMode(BTN2_PIN, GPIO_pinMode_I_pullDown, GPIO_Speed_10MHz);
     GPIO_pinMode(BTN3_PIN, GPIO_pinMode_I_pullDown, GPIO_Speed_10MHz);
     GPIO_pinMode(BTN4_PIN, GPIO_pinMode_I_pullDown, GPIO_Speed_10MHz);
+
+    GPIO_digitalWrite_0(LED_PIN);
 }
 
 void select_usb(int no)
@@ -209,6 +213,16 @@ int main()
     select_usb(1);
 
     printf("initialize done\r\n");
+
+    Delay_Ms(100);
+
+    printf("neopixel test start\r\n");
+    printf("UART CONF CTLR1:0x%08x CTLR2:0x%08x CTLR3:0x%08x\r\n", USART1->CTLR1, USART1->CTLR2, USART1->CTLR3);
+
+    uint8_t data[3] = {0x00, 0x00, 0xF0};
+    neopixel_write(GPIOD, GPIO_Pin_4, &data, 3);
+
+    printf("neopixel test done\r\n");
 
     while (1)
     {
