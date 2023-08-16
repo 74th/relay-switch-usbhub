@@ -146,6 +146,11 @@ void init_gpio()
     GPIO_digitalWrite_0(LED_PIN);
 }
 
+uint8_t usb1_color[3] = {0x00, 0x00, 0xF0};
+uint8_t usb2_color[3] = {0x00, 0xF0, 0x00};
+uint8_t usb3_color[3] = {0xF0, 0x00, 0x00};
+uint8_t usb4_color[3] = {0x00, 0xF0, 0xF0};
+
 void select_usb(int no)
 {
     switch (no)
@@ -155,24 +160,28 @@ void select_usb(int no)
         GPIO_digitalWrite(SELECT_U2_PIN, low);
         GPIO_digitalWrite(SELECT_U3_PIN, low);
         GPIO_digitalWrite(SELECT_U4_PIN, low);
+        neopixel_write(GPIOD, GPIO_Pin_4, &usb1_color, 3);
         break;
     case 2:
         GPIO_digitalWrite(SELECT_U1_PIN, low);
         GPIO_digitalWrite(SELECT_U2_PIN, high);
         GPIO_digitalWrite(SELECT_U3_PIN, low);
         GPIO_digitalWrite(SELECT_U4_PIN, low);
+        neopixel_write(GPIOD, GPIO_Pin_4, &usb2_color, 3);
         break;
     case 3:
         GPIO_digitalWrite(SELECT_U1_PIN, low);
         GPIO_digitalWrite(SELECT_U2_PIN, low);
         GPIO_digitalWrite(SELECT_U3_PIN, high);
         GPIO_digitalWrite(SELECT_U4_PIN, low);
+        neopixel_write(GPIOD, GPIO_Pin_4, &usb3_color, 3);
         break;
     case 4:
         GPIO_digitalWrite(SELECT_U1_PIN, low);
         GPIO_digitalWrite(SELECT_U2_PIN, low);
         GPIO_digitalWrite(SELECT_U3_PIN, low);
         GPIO_digitalWrite(SELECT_U4_PIN, high);
+        neopixel_write(GPIOD, GPIO_Pin_4, &usb4_color, 3);
         break;
     }
 }
@@ -196,6 +205,7 @@ int read_pushed()
     {
         pushed = 4;
     }
+
     return pushed;
 }
 
@@ -220,7 +230,7 @@ int main()
     printf("UART CONF CTLR1:0x%08x CTLR2:0x%08x CTLR3:0x%08x\r\n", USART1->CTLR1, USART1->CTLR2, USART1->CTLR3);
 
     uint8_t data[3] = {0x00, 0x00, 0xF0};
-    neopixel_write(GPIOD, GPIO_Pin_4, &data, 3);
+    neopixel_write(GPIOD, GPIO_Pin_4, &usb1_color, 3);
 
     printf("neopixel test done\r\n");
 
