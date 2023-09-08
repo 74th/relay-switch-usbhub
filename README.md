@@ -9,18 +9,20 @@ This is a USB hub with USB switching function using relays. Usually a dedicated 
 ## features
 
 - Switch between 4 USB Hosts with Relay
-- 4-port USB hub using CH334
+- 4-port USB 2.0 hub using CH334
 - MX compatible DIY keyboard switches can be used to switch between USB hosts
 - Currently enabled USB host is indicated by LED color
 - A Grove cable can be used to place a USB host switching switch at a remote location
+- Power protection IC on both USB device and USB host side
 
 ### Japanese
 
 - リレーを使った USB ホスト切り替え機能
-- CH334 を使った 4 ポート USB ハブ
+- CH334 を使った 4 ポート USB 2.0 ハブ
 - USB ホストの切り替えスイッチには MX 互換自作キーボードスイッチが使える
 - 現在有効な USB ホストを LED の色で表示する
 - Grove ケーブルで、離れた位置に USB ホストを切り替えるスイッチを置くことができる
+- USB デバイス、USB ホスト側の両方に電源保護 IC を搭載
 
 ## Repository Structure
 
