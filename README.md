@@ -71,9 +71,9 @@ USB ハブはディスプレイの裏に置きたかったため、Grove ケー�
 | CH2                | HY2.0 Socket SMD 4Pin - I2C                      | 1        |
 | D1                 | RGBLED WS2812B                                   | 1        |
 | D2-D5              | Fast Switching Diode SOD-123 1N4148W             | 4        |
-| J1-J4              | USB Type-C Receptacle - USB2.0_C_v3-R            | 4        |
+| J1-J4              | USB Type-C Receptacle - USB Device               | 4        |
 | J5                 | USB Type-C Receptacle - Power                    | 1        |
-| J6-J9              | USB Type-C Receptacle - Com                      | 4        |
+| J6-J9              | USB Type-C Receptacle - Com Host                 | 4        |
 | K1-K4              | 5V 2 Form C Relay                                | 4        |
 | R1-R10             | Register 0603 5.1kΩ                              | 10       |
 | R11                | Register 0603 27Ω                                | 1        |
