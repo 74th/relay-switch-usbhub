@@ -16,6 +16,8 @@ This is a USB hub with USB switching function using relays. Usually a dedicated 
 - Currently enabled USB host is indicated by LED color
 - A Grove cable can be used to place a USB host switching switch at a remote location
 - Power protection IC on both USB device and USB host side
+- USB port next to LED for power supply
+- All USB ports are Type-C
 
 ### Japanese
 
@@ -25,6 +27,8 @@ This is a USB hub with USB switching function using relays. Usually a dedicated 
 - 現在有効な USB ホストを LED の色で表示する
 - Grove ケーブルで、離れた位置に USB ホストを切り替えるスイッチを置くことができる
 - USB デバイス、USB ホスト側の両方に電源保護 IC を搭載
+- LED 横の USB ポートは電源供給用
+- 全ての USB ポートは Type-C
 
 ## Repository Structure
 
