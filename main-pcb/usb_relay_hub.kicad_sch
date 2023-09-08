@@ -4,6 +4,10 @@
 
   (paper "A3")
 
+  (title_block
+    (title "Relay USB Switch Hub by 74th")
+  )
+
   (lib_symbols
     (symbol "$74th:CH213K-Ideal_Diode_for_USB_Power" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -3.81 7.62 0)
@@ -4535,7 +4539,7 @@
     (property "Reference" "K2" (at 256.54 91.44 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "FINDER-30.22" (at 256.54 93.98 90)
+    (property "Value" "941H-2C-5D" (at 256.54 93.98 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Relay_THT:Relay_DPDT_Finder_30.22" (at 255.778 146.05 0)
@@ -4776,7 +4780,7 @@
     (property "Reference" "K1" (at 256.54 30.48 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "FINDER-30.22" (at 256.54 33.02 90)
+    (property "Value" "941H-2C-5D" (at 256.54 33.02 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Relay_THT:Relay_DPDT_Finder_30.22" (at 255.778 85.09 0)
@@ -5349,7 +5353,7 @@
     (property "Reference" "K4" (at 256.54 208.28 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "FINDER-30.22" (at 256.54 210.82 90)
+    (property "Value" "941H-2C-5D" (at 256.54 210.82 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Relay_THT:Relay_DPDT_Finder_30.22" (at 255.778 262.89 0)
@@ -6508,7 +6512,7 @@
     (property "Reference" "K3" (at 256.54 148.59 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "FINDER-30.22" (at 256.54 151.13 90)
+    (property "Value" "941H-2C-5D" (at 256.54 151.13 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Relay_THT:Relay_DPDT_Finder_30.22" (at 255.778 203.2 0)
