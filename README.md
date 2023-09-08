@@ -82,3 +82,9 @@ This is a USB hub with USB switching function using relays. Usually a dedicated 
 | R2        | Register 0805 27Ω                                | 1        |
 | SW1-SW4   | Cherry MX Compatible Switch or Kailh Choc Switch | 4        |
 | U1        | MCU LQFP48 WCH CH32V003F4P6                      | 1        |
+
+## License
+
+MIT
+
+日本では販売しないでいただけるとありがたいです。
