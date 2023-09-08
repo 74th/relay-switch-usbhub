@@ -4,7 +4,9 @@ This is a USB hub with USB switching function using relays. Usually a dedicated 
 
 リレーを使った USB 切り替え機能付き USB ハブです。本来は USB 切り替えには USB 切り替え専用の IC を使うべきですが、これはリレーを使って DM/DP を切り替えることで実現しています。私の所では動作しているので、動作は保証しませんが、公開しています。
 
-<img src="photos/photo1.jpg" width="40%" />
+<img src="photos/photo2.jpg" width="40%" /><img src="photos/photo4.jpg" width="40%" />
+
+<img src="photos/photo3.jpg" width="24%" /><img src="photos/photo5.jpg" width="24%" /><img src="photos/photo6.jpg" width="24%" /><img src="photos/photo7.jpg" width="24%" />
 
 ## features
 
