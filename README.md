@@ -1,12 +1,26 @@
 # Relay Switch USB 2.0 Hub
 
-This is a USB hub with USB switching function using relays. Usually a dedicated USB switching IC should be used for USB switching, but this is achieved by using a relay to switch between DM/DP. It works by me, so I am not guaranteeing that it works, but I am publishing it.
+This is a USB hub with USB switching function using relays.
 
-リレーを使った USB 切り替え機能付き USB ハブです。本来は USB 切り替えには USB 切り替え専用の IC を使うべきですが、これはリレーを使って DM/DP を切り替えることで実現しています。私の所では動作しているので、動作は保証しませんが、公開しています。
+Many existing USB hubs with USB host switching function only allow 2-port switching, and I made this kit because we wanted a 4-port hub.
+Since there are no USB hubs using USB Type-C available on the market, it is convenient to use USB Type-C.
+Since I wanted to place the USB hub behind the display, we also added the ability to switch remotely using a Grove cable.
+
+Usually a dedicated USB switching IC should be used for USB switching, but this is achieved by using a relay to switch between DM/DP. It works by me, so I am not guaranteeing that it works, but I am publishing it.
+
+リレーを使った USB 切り替え機能付き USB ハブです。
+
+既存の USB ホスト切り替え機能付き USB ハブでは、多くが 2 ポートしか切り替えられず、4 ポートが欲しかったため作りました。
+USB Type-C を使った USB ハブは販売されていないため、USB Type-C が使えると便利です。
+USB ハブはディスプレイの裏に置きたかったため、Grove ケーブルを使ってリモートから切り替えられる機能もつけました。
+
+本来は USB 切り替えには USB 切り替え専用の IC を使うべきですが、これはリレーを使って DM/DP を切り替えることで実現しています。私の所では動作しているので、動作は保証しませんが、公開しています。
 
 <img src="photos/photo2.jpg" width="40%" /><img src="photos/photo4.jpg" width="40%" />
 
 <img src="photos/photo3.jpg" width="24%" /><img src="photos/photo5.jpg" width="24%" /><img src="photos/photo6.jpg" width="24%" /><img src="photos/photo7.jpg" width="24%" />
+
+> Shop [BOOTH](https://74th.booth.pm/items/5080690)
 
 ## features
 
