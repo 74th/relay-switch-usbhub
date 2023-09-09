@@ -55,6 +55,15 @@ USB ハブはディスプレイの裏に置きたかったため、Grove ケー�
   - Button Unit MCU Firmware(CH32V003F6P6): [./remote_switch-firmware](./remote_switch-firmware)
   - Case 3D Printer Model: [./case/remote-bottom.stl](./case/remote-bottom.stl)
 
+## About Using IC
+
+- CH334R: USB 2.0 Hub controller IC
+  - Product Site: https://www.wch-ic.com/products/CH334.html
+  - Datasheet: https://www.wch-ic.com/downloads/CH334DS0_PDF.html
+- CH32V003: Low Cost General Purpose MCU
+  - Product Site: https://www.wch-ic.com/products/CH32V003.html
+  - Datasheet: https://www.wch-ic.com/downloads/CH32V003DS0_PDF.html
+
 ## Relay USB Hub v1.0.1
 
 - Semantics: [PDF](./main-pcb/relay_usb_switch_hub-v1.0.1-semantics.pdf) [Kicanvas](https://kicanvas.org/?github=https%3A%2F%2Fgithub.com%2F74th%2Frelay-switch-usbhub%2Fblob%2Fmain%2F1.0.1%2Fpcb%2Fusb_relay_hub.kicad_sch)
