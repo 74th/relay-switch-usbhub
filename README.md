@@ -49,11 +49,11 @@ USB ハブはディスプレイの裏に置きたかったため、Grove ケー�
 - Relay USB Hub
   - PCB KiCad Data: [./main-pcb](./main-pcb)
   - Relay Control MCU Firmware(CH32V003F6P6): [./main-firmware](./main-firmware)
-  - Case 3D Printer Model: [./case/case-bottom.stl](./case/case-bottom.stl)
+  - Case 3D Printer Model(WIP): [./case/case-bottom.stl](./case/case-bottom.stl)
 - Button Unit Grove I2C
   - PCB KiCad Data: [./remote_switch-pcb](./remote_switch-pcb)
   - Button Unit MCU Firmware(CH32V003F6P6): [./remote_switch-firmware](./remote_switch-firmware)
-  - Case 3D Printer Model: [./case/remote-bottom.stl](./case/remote-bottom.stl)
+  - Case 3D Printer Model(WIP): [./case/remote-bottom.stl](./case/remote-bottom.stl)
 
 ## About Using IC
 
