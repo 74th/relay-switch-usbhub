@@ -6,6 +6,7 @@
 
   (title_block
     (title "Button Unit Grove I2C")
+    (rev "1.0.0")
   )
 
   (lib_symbols

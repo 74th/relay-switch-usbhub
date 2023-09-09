@@ -6,6 +6,7 @@
 
   (title_block
     (title "Relay USB Switch Hub by 74th")
+    (rev "1.0.1")
   )
 
   (lib_symbols
