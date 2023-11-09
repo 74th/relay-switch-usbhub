@@ -76,7 +76,7 @@ USB ハブはディスプレイの裏に置きたかったため、Grove ケー�
 | C1, C3-C6, C8, C12 | Capacitor 0603 10uF                              | 7        |
 | C2, C11            | Capacitor 0603 100nF                             | 2        |
 | C7                 | NC                                               | 1        |
-| C9, C10            | Capacitor 0603 22pF                              | 2        |
+| C9, C10            | Capacitor 0603 20-22pF                           | 2        |
 | CH2                | HY2.0 Socket SMD 4Pin - I2C                      | 1        |
 | D1                 | RGBLED WS2812B                                   | 1        |
 | D2-D5              | Fast Switching Diode SOD-123 1N4148W             | 4        |
